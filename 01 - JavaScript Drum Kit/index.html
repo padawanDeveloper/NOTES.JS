@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="keys">
+    <div data-key="65" class="key">
+      <kbd>A</kbd>
+      <span class="sound">base piano</span>
+    </div>
+    <div data-key="83" class="key">
+      <kbd>S</kbd>
+      <span class="sound">base jazz</span>
+    </div>
+    <div data-key="68" class="key">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div data-key="70" class="key">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div data-key="71" class="key">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div data-key="72" class="key">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div data-key="74" class="key">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div data-key="75" class="key">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div data-key="76" class="key">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <audio data-key="65" data-type="base" src="sounds/base-piano.mp3"></audio>
+  <audio data-key="83" data-type="base" src="sounds/base-jazz.mp3"></audio>
+  <audio data-key="68" data-type="mr" src="sounds/kick.wav"></audio>
+  <audio data-key="70" data-type="mr" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" data-type="mr" src="sounds/boom.wav"></audio>
+  <audio data-key="72" data-type="mr" src="sounds/ride.wav"></audio>
+  <audio data-key="74" data-type="mr" src="sounds/snare.wav"></audio>
+  <audio data-key="75" data-type="mr" src="sounds/tom.wav"></audio>
+  <audio data-key="76" data-type="mr" src="sounds/tink.wav"></audio>
+
+<script>
+  function removeTransition(e) {
+    if (e.propertyName !== 'transform') return;
+    e.target.classList.remove('playing');
+  }
+
+  function addTransition(e) {
+    console.log("le damos play");
+  }
+
+  function playSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    //console.log(audio);
+    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+    //if (!audio) return;
+      if (audio){           
+            audio.currentTime = 0;
+            if (audio.getAttribute("data-type") === "base" ){
+              if(audio.duration > 0 && !audio.paused){
+                key.classList.remove('playingBase');
+                audio.pause();
+                console.log("esta sonando");
+              }else{
+                console.log("esto es base");
+                key.classList.add('playingBase');
+                audio.play();
+              }
+            }else{
+              key.classList.add('playing');
+              console.log("esto es instrumento");
+              audio.play();
+            }
+      }
+  }
+  //Se crea un array con todos los <div class="key"> que encuentra.
+  const keys = Array.from(document.querySelectorAll('.key'));
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  window.addEventListener('keydown', playSound);
+  console.log(keys);
+  //se crea un array para ver todos los audios base que hay.
+  const audios = Array.from(document.querySelectorAll(`audio[data-type="base"]`));
+  audios.forEach(audio => audio.addEventListener('ended', removeTransition));
+  audios.forEach(audio => audio.addEventListener('pause', removeTransition));
+  audios.forEach(audio => audio.addEventListener('play', addTransition));
+  console.log(audios);
+</script>
+
+
+</body>
+</html>
