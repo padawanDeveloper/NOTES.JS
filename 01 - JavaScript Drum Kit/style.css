@@ -2,20 +2,36 @@ html {
   font-size: 10px;
   background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center right;
+  height: 100vh;
 }
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  
+}
+.intruction{
+
+
+}
+p{
+    background-color: rgba(0,0,0,0.7);
+  color: white;
+  line-height: 22px;
+  padding: 30px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
 }
 
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
   align-items: center;
   justify-content: center;
 }
+
 
 .key {
   border: .4rem solid black;

@@ -7,7 +7,8 @@
 </head>
 <body>
 
-
+<p>Elige la o las bases que deseas mezclar</p>
+  </br>
   <div class="keys">
     <div data-key="65" class="key">
       <kbd>A</kbd>
@@ -17,6 +18,10 @@
       <kbd>S</kbd>
       <span class="sound">base jazz</span>
     </div>
+  </div>
+<p>Luego presiona las teclas [D - F - G - H - J - K - L] para la bateria</p>
+  </br>
+  <div class="keys">
     <div data-key="68" class="key">
       <kbd>D</kbd>
       <span class="sound">kick</span>
@@ -63,9 +68,6 @@
     e.target.classList.remove('playing');
   }
 
-  function addTransition(e) {
-    console.log("le damos play");
-  }
 
   function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
@@ -78,7 +80,7 @@
               if(audio.duration > 0 && !audio.paused){
                 key.classList.remove('playingBase');
                 audio.pause();
-                console.log("esta sonando");
+                //console.log("esta sonando");
               }else{
                 console.log("esto es base");
                 key.classList.add('playingBase');
@@ -86,7 +88,7 @@
               }
             }else{
               key.classList.add('playing');
-              console.log("esto es instrumento");
+              //console.log("esto es instrumento");
               audio.play();
             }
       }
@@ -100,8 +102,8 @@
   const audios = Array.from(document.querySelectorAll(`audio[data-type="base"]`));
   audios.forEach(audio => audio.addEventListener('ended', removeTransition));
   audios.forEach(audio => audio.addEventListener('pause', removeTransition));
-  audios.forEach(audio => audio.addEventListener('play', addTransition));
-  console.log(audios);
+
+  //console.log(audios);
 </script>
 
 
