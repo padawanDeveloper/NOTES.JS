@@ -20,4 +20,4 @@ Segunda Tarea
   * Se crean variables para calcular el _angulo_ de rotacion para cada _barra_  
   * __secondHand.style.transform = `rotate(${secondsDegrees}deg)`__ cada vez que se actualice se le asigna en el css cuando encuentra transfom
 
-2. Crear reloj analogico con css y html
+2. Crear reloj digital con css y html
