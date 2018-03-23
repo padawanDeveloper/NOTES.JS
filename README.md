@@ -34,7 +34,7 @@ Tercera Tarea
   * __Platform as a Service__: Permite a los usuarios crear aplicaciones de software utilizando herramientas suministradas por el proveedor. Los servicios PaaS pueden consistir en funcionalidades _preconfiguradas_ a las que los clientes puedan suscribirse, eligiendo las funciones que deseen incluir para resolver sus necesidades y descartando aquellas que no necesiten.(BD, cantidad de usuarios a los que se desea llegar, almacenamiento, etc...).
   * __Software as a Service__: Se describe cualquier servicio cloud en el que los _consumidores_ (usuarios) puedan acceder a aplicaciones de software a través de internet. Esas aplicaciones están alojadas "en la nube" y pueden utilizarse para una amplia variedad de tareas, tanto para particulares como para organizaciones. Google, Twitter, Facebook y Flickr son ejemplos de SaaS, en los cuales los usuarios pueden acceder a los servicios a través de cualquier dispositivo que pueda conectarse a internet.
 
-| IaaS          | PaaS          | SaaS  |
+| IaaS          | SaaS          | PaaS  |
 | ------------- |:-------------:| -----:|
 |Escalabilidad  |Se paga sólo por lo que se utiliza|No necesitan invertir en infraestructura física|
 |Sin necesidad de invertir en hardware| No tiene costes adicionales de hardware|Hace posible que incluso usuarios "no expertos" puedan realizar desarrollos|
