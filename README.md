@@ -35,7 +35,7 @@ Tercera Tarea
   * __Software as a Service__: Se describe cualquier servicio cloud en el que los _consumidores_ (usuarios) puedan acceder a aplicaciones de software a través de internet. Esas aplicaciones están alojadas "en la nube" y pueden utilizarse para una amplia variedad de tareas, tanto para particulares como para organizaciones. Google, Twitter, Facebook y Flickr son ejemplos de SaaS, en los cuales los usuarios pueden acceder a los servicios a través de cualquier dispositivo que pueda conectarse a internet.
 
 | IaaS          | SaaS          | PaaS  |
-| ------------- :|-------------:| -----:|
+| :------------- |:-------------| :-----|
 |Escalabilidad  |Se paga sólo por lo que se utiliza|No necesitan invertir en infraestructura física|
 |Sin necesidad de invertir en hardware| No tiene costes adicionales de hardware|Hace posible que incluso usuarios "no expertos" puedan realizar desarrollos|
 |Modelo de tarificación similar al de los suministros públicos como la luz o el gas| El uso del servicio es escalable |Flexibilidad|
