@@ -35,7 +35,7 @@ Tercera Tarea
   * __Software as a Service__: Se describe cualquier servicio cloud en el que los _consumidores_ (usuarios) puedan acceder a aplicaciones de software a través de internet. Esas aplicaciones están alojadas "en la nube" y pueden utilizarse para una amplia variedad de tareas, tanto para particulares como para organizaciones. Google, Twitter, Facebook y Flickr son ejemplos de SaaS, en los cuales los usuarios pueden acceder a los servicios a través de cualquier dispositivo que pueda conectarse a internet.
 
 | IaaS          | SaaS          | PaaS  |
-| :------------- |:-------------| :-----|
+| :-------------|:-------------| :-----|
 |Escalabilidad  |Se paga sólo por lo que se utiliza|No necesitan invertir en infraestructura física|
 |Sin necesidad de invertir en hardware| No tiene costes adicionales de hardware|Hace posible que incluso usuarios "no expertos" puedan realizar desarrollos|
 |Modelo de tarificación similar al de los suministros públicos como la luz o el gas| El uso del servicio es escalable |Flexibilidad|
@@ -43,8 +43,37 @@ Tercera Tarea
 |Seguridad física en los centros de datos|Compatibilidad entre dispositivos|Seguridad|
 |No hay puntos únicos de fallo|Accesible desde cualquier lugar|Permite la colaboración entre equipos situados en varios lugares distintos|
 
+Cuarta Tarea
+=============
+1. Hacer el video 4 tutorial **JavaScript30**
+  * const fisteen = inventors.filter(function(inventor){
+      if(inventor.year >= 1500 && inventor.year < 1600){
+        return true;
+      }
+    });
+    es lo mismo que lo de arriba pero con etra escritura.
+    const fifteen = inventors.filter(inventor =>(inventor.year >= 1500 && inventor.year < 1600))
 
+  * const fullName= inventors.map(inventor => inventor.first + inventor.last);
+    Otra forma para concatenar.
+    const fullName= inventors.map(inventor => `${inventor.first} ${inventor.last}`);
 
+  * const ordered = inventors.sort(function(a, b){
+      if(a.year > b.year){
+        return 1;
+      }else{
+        return -1;
+      }
+    });
+    Es lo mismo de arriba si retorna true asigna 1 si no retorna el -1. ordena alfabeticamente y ascendente
+    const ordered = inventors.sort((a, b) => a.year > b.year ? 1 : -1);
+
+  * el _split_ los separa y forma un objeto con nombre y apellido(que es lo que contiene y estan separados por la ,);
+    const alpha = people.sort(function(lastOne, nextOne){
+      const [aLast, aFirst] = lastOne.split(', ');
+      const [bLast, bFirst] = nextOne.split(', ');
+      return aLast > bLast ? 1 : -1;
+    });
 
 
 
