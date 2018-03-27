@@ -74,6 +74,15 @@ Cuarta Tarea
       const [bLast, bFirst] = nextOne.split(', ');
       return aLast > bLast ? 1 : -1;
     });
+2. Crear conexion ssh desde el mac a gitHub
+
+  * ssh-keygen -t rsa -b 4096 -C _"your_email@example.com"_ Agregamos el email a la conexion
+  * Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter] dabamos enter para que lo guarde por defecto
+  * Enter passphrase (empty for no passphrase): [Type a passphrase]
+    Enter same passphrase again: [Type passphrase again] ingresa la clave y repite
+  * eval "$(ssh-agent -s)" agrega el ssh
+  * ssh-add -K ~/.ssh/id_rsa 
+  * pbcopy < ~/.ssh/id_rsa.pub se copia el contenido de id_rsa.pub
 
 
 
