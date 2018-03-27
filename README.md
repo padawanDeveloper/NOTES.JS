@@ -84,5 +84,25 @@ Cuarta Tarea
   * ssh-add -K ~/.ssh/id_rsa 
   * pbcopy < ~/.ssh/id_rsa.pub se copia el contenido de id_rsa.pub
 
+3. Hacer el video 5 tutorial **JavaScript30**
+
+Quinta Tarea
+=============
+1. Hacer el video 6 tutorial **JavaScript30**
+
+  * Filtramos las ciudades y creamos otra variable que almacene las coisidencias
+    return cities.filter(place => {
+      // aquí tenemos que averiguar si la ciudad o el estado coinciden con lo que se buscó
+      const regex = new RegExp(wordToMatch, 'gi');
+      return place.city.match(regex) || place.state.match(regex)
+  * Toma el contenido en el input search
+    _const searchInput = document.querySelector('.search');_
+    _const suggestions = document.querySelector('.suggestions');_
+  * Cuando detecta movimiento ejecuta la funcion displayMatches
+    _searchInput.addEventListener('change', displayMatches);_
+    _searchInput.addEventListener('keyup', displayMatches);_
+
+
+
 
 
