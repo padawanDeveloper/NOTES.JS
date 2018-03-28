@@ -124,4 +124,7 @@ Sexta Tarea
 _Consejo: Use moveTo (), lineTo (), quadricCurveTo (), bezierCurveTo (), arcTo (), y arc (), para crear rutas._
 _Consejo: use el método stroke () para dibujar la ruta en el lienzo._
 
+3. Hacer el video 9 tutorial **JavaScript30**
+   * Tutorial completado
+   * Es casi todo lo aprendido con anterioridad y se enseña nuevos metodos de consola.(esta comentado en el codigo lo nuevo)
 
