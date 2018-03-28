@@ -102,6 +102,20 @@ Quinta Tarea
     _searchInput.addEventListener('change', displayMatches);_
     _searchInput.addEventListener('keyup', displayMatches);_
 
+Sexta Tarea
+=============
+1. Hacer el video 7 tutorial **JavaScript30**
+
+  * El método some () comprueba si alguno de los elementos en una matriz pasa una prueba (proporcionada como una función).
+  * El método some () ejecuta la función una vez para cada elemento presente en la matriz:
+
+  1.1 Si encuentra un elemento de matriz donde la función devuelve un valor verdadero , some () devuelve verdadero (y no verifica los valores restantes)
+  1.2 De lo contrario, devuelve falso
+  * El método slice () devuelve los elementos seleccionados en una matriz, como un nuevo objeto de matriz.
+
+  * El método slice () selecciona los elementos comenzando en el argumento de inicio dado , y termina en, pero no incluye , el argumento final dado .
+
+  __Nota:__ La matriz original no se cambiará.
 
 
 
