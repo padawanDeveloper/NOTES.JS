@@ -109,14 +109,19 @@ Sexta Tarea
   * El método some () comprueba si alguno de los elementos en una matriz pasa una prueba (proporcionada como una función).
   * El método some () ejecuta la función una vez para cada elemento presente en la matriz:
 
-  1.1 Si encuentra un elemento de matriz donde la función devuelve un valor verdadero , some () devuelve verdadero (y no verifica los valores restantes)
-  1.2 De lo contrario, devuelve falso
+1.1 Si encuentra un elemento de matriz donde la función devuelve un valor verdadero , some () devuelve verdadero (y no verifica los valores restantes)
+1.2 De lo contrario, devuelve falso
   * El método slice () devuelve los elementos seleccionados en una matriz, como un nuevo objeto de matriz.
 
   * El método slice () selecciona los elementos comenzando en el argumento de inicio dado , y termina en, pero no incluye , el argumento final dado .
 
   __Nota:__ La matriz original no se cambiará.
 
+2. Hacer el video 8 tutorial **JavaScript30**
 
+  * Tutorial completo 
+  * __El método beginPath ()__ inicia una ruta o restablece la ruta actual.
+_Consejo: Use moveTo (), lineTo (), quadricCurveTo (), bezierCurveTo (), arcTo (), y arc (), para crear rutas._
+_Consejo: use el método stroke () para dibujar la ruta en el lienzo._
 
 
