@@ -128,3 +128,7 @@ _Consejo: use el método stroke () para dibujar la ruta en el lienzo._
    * Tutorial completado
    * Es casi todo lo aprendido con anterioridad y se enseña nuevos metodos de consola.(esta comentado en el codigo lo nuevo)
 
+4. Hacer el video 10 tutorial **JavaScript30**
+  * Video completo
+  * Hay cosas que se pueden mejorar,se podria crear un arrego con los checked para saver exactamente cuale estan presionados antes de seleccionar varios
+
