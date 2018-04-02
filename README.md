@@ -136,3 +136,6 @@ Sexta Tarea
 =============
 1. Hacer el video 11 tutorial **JavaScript30**
   * Video completado, manejo de la barra de progreso controlando la duracion.
+
+2. Hacer video 12 tutorial **JavaScript30**
+  * Video completado, evento visto keyup (detecta las teclas que se precionan)
