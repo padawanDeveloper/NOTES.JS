@@ -132,3 +132,7 @@ _Consejo: use el método stroke () para dibujar la ruta en el lienzo._
   * Video completo
   * Hay cosas que se pueden mejorar,se podria crear un arrego con los checked para saver exactamente cuale estan presionados antes de seleccionar varios
 
+Sexta Tarea
+=============
+1. Hacer el video 11 tutorial **JavaScript30**
+  * Video completado, manejo de la barra de progreso controlando la duracion.
