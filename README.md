@@ -139,3 +139,16 @@ Sexta Tarea
 
 2. Hacer video 12 tutorial **JavaScript30**
   * Video completado, evento visto keyup (detecta las teclas que se precionan)
+
+3. Hacer video 13 tutorial **JavaScript30**
+  * Tutorial completado, La propiedad offsetTop devuelve la posición superior (en píxeles) relativa a la parte superior del elemento offsetParent.
+
+El valor devuelto incluye:
+
+la posición superior y el margen del elemento
+el relleno superior, la barra de desplazamiento y el borde del elemento offsetParent
+**Nota:** El elemento offsetParent es el ancestro más cercano que tiene una posición que no sea estática.
+
+**Consejo:** Para devolver la posición izquierda de un elemento, use la propiedad offsetLeft .
+
+
