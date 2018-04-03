@@ -151,4 +151,6 @@ el relleno superior, la barra de desplazamiento y el borde del elemento offsetPa
 
 **Consejo:** Para devolver la posición izquierda de un elemento, use la propiedad offsetLeft .
 
+4. Hacer video 14 tutorial **JavaScript30**
+
 
