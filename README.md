@@ -132,7 +132,7 @@ _Consejo: use el método stroke () para dibujar la ruta en el lienzo._
   * Video completo
   * Hay cosas que se pueden mejorar,se podria crear un arrego con los checked para saver exactamente cuale estan presionados antes de seleccionar varios
 
-Sexta Tarea
+Septima Tarea
 =============
 1. Hacer el video 11 tutorial **JavaScript30**
   * Video completado, manejo de la barra de progreso controlando la duracion.
@@ -153,4 +153,9 @@ el relleno superior, la barra de desplazamiento y el borde del elemento offsetPa
 
 4. Hacer video 14 tutorial **JavaScript30**
 
-
+Octava Tarea
+=============
+1. Hacer el video 15 tutorial **JavaScript30**
+  * La propiedad Element.innerHTML cambia o devuelve la sintaxis HTML describiendo los descendientes del elemento.
+  * Agrega un checkBox y le asigna un id 
+  * input type="checkbox" data-index=${i} id="item${i}" ${plate.done ? 'checked' : ''} 
