@@ -159,3 +159,6 @@ Octava Tarea
   * La propiedad Element.innerHTML cambia o devuelve la sintaxis HTML describiendo los descendientes del elemento.
   * Agrega un checkBox y le asigna un id 
   * input type="checkbox" data-index=${i} id="item${i}" ${plate.done ? 'checked' : ''} 
+
+2. Hacer el video 16 tutorial **JavaScript30**
+  * Tutorial hecho 
