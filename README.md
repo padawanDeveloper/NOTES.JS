@@ -162,3 +162,8 @@ Octava Tarea
 
 2. Hacer el video 16 tutorial **JavaScript30**
   * Tutorial hecho 
+
+¿Que es Versionado Semántico 2.0.0-rc.2?
+=============  
+
+Es un set simple de reglas y requerimientos que dictan cómo asignar y cómo aumentar los números de versión. Para que este sistema funcione, tienes que declarar primero un **API pública**. Esto puede consistir en documentación o ser explicitado en el código mismo. De cualquier forma, es importante que esta API sea clara y precisa. Una vez que identificaste tu **API pública**, comunicas cambios a ella con aumentos específicos al número de versión. Considera un formato de versión del tipo _X.Y.Z_ (Major.Minor.Patch) Los arreglos de bugs que no cambian el API incrementan el patch, los cambios y adiciones que no rompen la compatibilidad de las dependencias anteriores incrementan el minor, y los cambios que rompen la compatibilidad incrementan el major.
