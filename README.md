@@ -167,3 +167,28 @@ Octava Tarea
 =============  
 
 Es un set simple de reglas y requerimientos que dictan cómo asignar y cómo aumentar los números de versión. Para que este sistema funcione, tienes que declarar primero un **API pública**. Esto puede consistir en documentación o ser explicitado en el código mismo. De cualquier forma, es importante que esta API sea clara y precisa. Una vez que identificaste tu **API pública**, comunicas cambios a ella con aumentos específicos al número de versión. Considera un formato de versión del tipo _X.Y.Z_ (Major.Minor.Patch) Los arreglos de bugs que no cambian el API incrementan el patch, los cambios y adiciones que no rompen la compatibilidad de las dependencias anteriores incrementan el minor, y los cambios que rompen la compatibilidad incrementan el major.
+
+MUST, MUST NOT, SHOULD, SOULD NOT y MAY.
+============= 
+1. __DEBE__ declarar una API pública, debería ser precisa y completa.
+
+2. __DEBE__ tomar la forma X.Y.Z donde X, Y, y Z, (X es la versión “major”, Y es la versión “minor”, y Z es la versión “patch”) el  incremento de estos son de a 1.
+
+3. Cada liberacion de _version_ es unica y los contenidos de esa versión __NO DEBEN__ ser modificadas.
+
+4. La _versión_ __major__ en cero (__0__.y.z) es para desarrollo inicial. Cualquier cosa puede cambiar en cualquier momento. El API pública no debiera ser considerada estable.
+
+5. La _versión_ __1.0.0__ define el _API pública_.
+
+6. La versión patch Z (x.y.Z | x > 0) DEBE incrementarse cuando se introducen solo arreglos compatibles con la versión anterior.
+
+
+
+
+
+
+
+
+
+
+
