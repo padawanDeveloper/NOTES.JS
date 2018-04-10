@@ -171,19 +171,19 @@ Es un set simple de reglas y requerimientos que dictan cómo asignar y cómo aum
 MUST, MUST NOT, SHOULD, SOULD NOT y MAY.
 ============= 
 1. __DEBE__ declarar una API pública, debería ser precisa y completa.
--
+
 2. __DEBE__ tomar la forma X.Y.Z donde X, Y, y Z, (X es la versión “major”, Y es la versión “minor”, y Z es la versión “patch”) el  incremento de estos son de a 1.
--
+
 3. Cada liberacion de _version_ es unica y los contenidos de esa versión __NO DEBEN__ ser modificadas.
--
+
 4. La _versión_ __major__ en cero (__0__.y.z) es para desarrollo inicial. Cualquier cosa puede cambiar en cualquier momento. El API pública no debiera ser considerada estable.
--
+
 5. La _versión_ __1.0.0__ define el _API pública_.
--
+
 6. La _versión_ patch Z (x.y.Z | x > 0) DEBE incrementarse cuando se introducen solo arreglos compatibles con la versión anterior.
--
+
 7. La versión __minor__ Y (x.Y.z | x > 0) DEBE ser incrementada si se introduce nueva funcionalidad compatible con la versión anterior. Se __DEBE__ incrementar si cualquier funcionalidad de la _API_ es marcada como deprecada. __PUEDE__ ser incrementada si se agrega funcionalidad o arreglos considerables al código privado.
--
+
 8. La versión major X (X.y.z | X > 0) DEBE ser incrementada si cualquier cambio no compatible con la versión anterior es introducida a la API pública. PUEDE incluir cambios de niver minor y/o patch. Las versiones patch y minor DEBEN ser reseteadas a 0 cuando se incrementa la versión major.
 
 
