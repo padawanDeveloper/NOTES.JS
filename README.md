@@ -186,8 +186,9 @@ MUST, MUST NOT, SHOULD, SOULD NOT y MAY.
 
 8. La versión major X (X.y.z | X > 0) DEBE ser incrementada si cualquier cambio no compatible con la versión anterior es introducida a la API pública. PUEDE incluir cambios de niver minor y/o patch. Las versiones patch y minor DEBEN ser reseteadas a 0 cuando se incrementa la versión major.
 
-
-
+Video 17 __JavaScript30__
+=============  
+1. _sort_ ordena los elementos de una matriz _(por defecto es de orden alfabético y ascendente)_
 
 
 
